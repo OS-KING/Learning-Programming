@@ -1,0 +1,107 @@
+/* media for 320px */
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    header
+    {
+        width: 99%;
+    }
+    .header-item{
+        display: block;
+        width: 100%;
+    }
+    .header-item nav ul li{
+        display: block;
+    }
+    /* home */
+    .home-item-title
+    {
+        font-size: 30px;
+    }
+    .home-item-desc
+    {
+        font-size: 16px;
+    }
+    .home-item-icon i
+    {
+        margin: 40px 70px;
+    }
+    /* courses */
+    .courses
+    { 
+        position: relative;
+        width: 70%;
+    } 
+    .card
+    {
+        margin: 20px -195px;
+    }
+    .card .hide
+    {
+        display: none;
+    }
+    .card.mg
+    {
+        margin: 220px -195px;
+    }
+    .AllCourses
+    { 
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        right: 10%;
+    }  
+
+    /* about*/
+    .about
+    {
+        height: 200vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .about-item
+    {
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 30px;
+    }
+    .about-item-img
+    {
+        width: 70%;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }  
+    .about-item-descs p
+    {
+        width: 70%;
+        padding: 0;
+    }
+    .about-item-title
+    {
+        margin-top: 340px;
+        width: 100px;
+    }
+    .about-item .line
+    {
+        width: 100px;
+    }
+
+    /* footer */
+    footer
+    {
+        position: relative;
+    }
+    .icons-item
+    {
+        position: absolute;
+        margin: 5x -50px;
+        display: block;
+    }
+    .icons-item a
+    {
+        display: block;
+        margin: -50px -80px;
+        width: 100%;
+    }
+}
